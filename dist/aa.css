@@ -1,0 +1,16 @@
+.box {
+    background-color: blue;
+    font-size: 14px;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
+    position: relative;
+    -webkit-transform: 30deg;
+       -moz-transform: 30deg;
+        -ms-transform: 30deg;
+         -o-transform: 30deg;
+            transform: 30deg;
+}
+.box > div {
+    -webkit-box-shadow: 2px 2px 2px #eee;
+            box-shadow: 2px 2px 2px #eee;
+}

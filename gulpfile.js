@@ -19,6 +19,15 @@ gulp.task('css', function () {
                                 //transform: rotate(45deg);
             remove: true //是否去掉不必要的前缀 默认：true
         }))
-        .pipe(concat('main.css'))
+        // .pipe(concat('main.css'))
         .pipe(gulp.dest('./dist'));
+});
+
+//默认任务
+gulp.task('default', function () {
+    gulp.run('css');
+
+    // Watch .css files
+    gulp.watch(['src/css/**/*.css', '!src/css/main.css', '!src/css/main.min.css'], ['css']);
+
 });

@@ -1,7 +1,9 @@
 1. 样式放在 `/css/*.css` 目录下
-2. `npm install` 安装依赖
+2. `npm install` 安装依赖(仅执行一次)
 3. 执行 `npm start` 会自动合并、自动补全
-4. `/dist/main.css` 为最后生成文件
+4. 执行 `gulp` 持续监听样式改变并生成文件
+5. `/dist/*.css` 为最后生成文件
+
 
 
 ```
