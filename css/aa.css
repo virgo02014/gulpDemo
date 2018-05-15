@@ -1,0 +1,10 @@
+.box {
+    background-color: blue;
+    font-size: 14px;
+    border-radius: 4px;
+    position: relative;
+    transform: 30deg;
+}
+.box > div {
+    box-shadow: 2px 2px 2px #eee;
+}
